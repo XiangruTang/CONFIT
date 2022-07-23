@@ -4,10 +4,6 @@ We propose a training strategy that improves the factual consistency and overall
 
 The code is based on huggaface's [transformers](https://github.com/huggingface/transformers). Thanks to them! 
 
-## Pretrained models
-
-Download the T5, Pegasus, and BART models from [Google Drive](https://drive.google.com/drive/folders/1pbqfHxs3oa38lLJw7j1mWDtpaWYfL2UD?usp=sharing).
-
 ## Test
 
 ```
@@ -41,6 +37,12 @@ print (attention_mask.shape)
 output = model(input_ids=input_ids, decoder_input_ids=decoder_input_ids)
 ```
 
+## Released Model Checkpoints
+We have released the following checkpoints for our pre-trained models:
+
+* **T5-CONFIT**: [Google Drive](https://drive.google.com/drive/folders/1pbqfHxs3oa38lLJw7j1mWDtpaWYfL2UD?usp=sharing)
+* **Pegasus-CONFIT**: [Google Drive](https://drive.google.com/drive/folders/1pbqfHxs3oa38lLJw7j1mWDtpaWYfL2UD?usp=sharing)
+* **BART-CONFIT**: [Google Drive](https://drive.google.com/drive/folders/1pbqfHxs3oa38lLJw7j1mWDtpaWYfL2UD?usp=sharing)
 
 ## Citation
 ```
