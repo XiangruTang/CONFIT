@@ -40,7 +40,7 @@ output = model(input_ids=input_ids, decoder_input_ids=decoder_input_ids)
 ## Released Model Checkpoints
 We have released the following checkpoints for our pre-trained models:
 
-* **T5-CONFIT**: [Google Drive](https://drive.google.com/drive/folders/1pbqfHxs3oa38lLJw7j1mWDtpaWYfL2UD?usp=sharing)
+* **T5-CONFIT**: [Google Drive](https://drive.google.com/drive/folders/1zCHIGAHifJ1oH00yNLkUsfWE14aGUpe7?usp=sharing)
 * **Pegasus-CONFIT**: [Google Drive](https://drive.google.com/drive/folders/1uikCqSNMEVK2vKOfShoC6FmU-fH5cGMh?usp=sharing)
 * **BART-CONFIT**: [Google Drive](https://drive.google.com/drive/folders/1pbqfHxs3oa38lLJw7j1mWDtpaWYfL2UD?usp=sharing)
 
